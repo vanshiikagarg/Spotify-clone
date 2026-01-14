@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <img src="./Images/Icons/favicon.png">
+            <h1>Spotify</h1>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="body-part">
+            <div class="left-section">
+            <h2>Best of NCS - No Copyright Sounds</h2>
+            <div class="song-part">
+               <div class="song-image"> 
+                    <img src="/Images/cs.jpg">
+                    <h3>Cruel Summer</h3>
+                   <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="0" data-src="./audio/cruel_summer.mp3">
+                </div>
+                </div>
+                <div class="song-image">
+                    <img src="/Images/dl.jpg">
+                    <h3>Dance Like</h3>
+                  <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="1" data-src="./audio/dance_like.mp3">
+                </div>
+                </div>
+                <div class="song-image">
+                    <img src="/Images/hr.jpg">
+                    <h3>Hotel Room</h3>
+                    <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="2" data-src="./audio/hotel_room.mp3">
+                </div>
+                </div>
+                <div class="song-image">
+                    <img src="/Images/lmlyd.jpg">
+                    <h3>Love Me Like You Do</h3>
+                    <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="3" data-src="./audio/love_me_like_you_do.mp3">
+                </div>
+                </div>
+                <div class="song-image">
+                    <img src="/Images/ns.jpg">
+                    <h3>Nee Singam Dhan</h3>
+                   <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="4" data-src="./audio/nee_singam_dhan.mp3">
+                </div>
+                </div>
+                <div class="song-image">
+                    <img src="/Images/vm.jpg">
+                    <h3>Ve Maahi</h3>
+                    <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="5" data-src="./audio/ve_maahi.mp3">
+                </div></div>
+                 <div class="song-image">
+                    <img src="/Images/bkk.jpg">
+                    <h3>Banda Kaam Ka</h3>
+                  <div class="time">
+                    <p>5:34
+                    </p><img src="/Images/Icons/play.png" class="songBtn" data-index="6" data-src="./audio/banda_kaam_Ka_chaar_diwaari.mp3">
+                </div>
+                </div>
+            </div></div>
+            <img src="./Images/singerimg.png" class="singer-img">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-part">
+            <div class="musicRange">
+                <input type="range" min="0" max="100" value="0" id="music-range">
+            </div>
+         <audio id="player"></audio>
+            <div class="buttons">
+                <img src=".\Images\Icons\play-previous.png" id="previous">
+                <img src=".\Images\Icons\play-button.png" id="play">
+                <img src=".\Images\Icons\next-button.png" id="next">
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
